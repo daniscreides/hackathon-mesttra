@@ -200,6 +200,9 @@ public class Main {
 
     // Processa a vez do usuário.
     static void processarVezUsuario(char caractereUsuario) {
+        System.out.println();
+        System.out.println("SUA VEZ!");
+        System.out.println();
         int[] jogada = obterJogadaUsuario(retornarPosicoesLivres(), teclado);
         atualizaTabuleiro(jogada, caractereUsuario);
     }
@@ -339,9 +342,9 @@ public class Main {
         System.out.println();
         System.out.println("VITÓRIA DO COMPUTADOR!");
         System.out.println();
-        System.out.println("(o_o)");
-        System.out.println(" /|\\  ");
-        System.out.println(" / \\ ");
+        System.out.println("   (o_o)");
+        System.out.println("    /|\\  ");
+        System.out.println("    / \\ ");
         System.out.println();
     }
 
@@ -350,9 +353,9 @@ public class Main {
         System.out.println();
         System.out.println("VOCÊ VENCEU!");
         System.out.println();
-        System.out.println(" \\Õ/ ");
-        System.out.println("  | ");
-        System.out.println(" / \\ ");
+        System.out.println("   \\Õ/ ");
+        System.out.println("    | ");
+        System.out.println("   / \\ ");
         System.out.println();
     }
 
